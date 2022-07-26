@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+  body{
+       font-family: 'Roboto', sans-serif;
+       background-color: rgb(248, 226, 226);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.brand img{
+    width: 6rem;
+}
+
+header{
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: transparent;
+    color:white;
+    transition: all 300ms ease;
+}
+
+nav ul li {
+    margin: 0 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding:10px 16px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    border: 0px solid white;
+    border-radius: 50% 0 50% 0%;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all 100ms ease;
+    color:white;
+}
+
+.header-img img{
+    width: 98vw;
+    margin: 5px;    
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.header{
+    background-image: url("./img/header-img-2.jpg");
+
+    min-height: 95vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.content{
+    width: 96vw;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.section img{
+    width: 48%;
+    height: 100%;
+}
+
+.text{
+    align-items: center;
+    margin:auto;
+}
