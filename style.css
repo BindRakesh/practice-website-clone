@@ -5,6 +5,10 @@
        background-color: rgb(237, 252, 249);
 }
 
+:root{
+    --primary-color: #2DD4BF; 
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -105,6 +109,30 @@ nav ul li a:hover{
 
 
 
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 1rem 1rem 0 0;
+}
+
+  .footer-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.footer-header ul {
+    margin: auto;
+    padding-inline-start: 0px;
+}
 
 @media only screen and (max-width: 1000px){
      nav ul li{
